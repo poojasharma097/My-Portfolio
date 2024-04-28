@@ -2,7 +2,7 @@ export default function Navbar() {
   return (
     <nav className="navbar">
       <div className="flex items-center justify-between">
-        <div className="flex gap-10 items-center">
+        <div className="flex gap-10 items-center navHeading">
           <div className="navbarLogo">
           <a href="/"><img className="navimg" src="/navpic.jpg"></img></a>
           </div>
