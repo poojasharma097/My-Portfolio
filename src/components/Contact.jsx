@@ -1,5 +1,8 @@
+import FadeInSection from "./FadeIn";
+
 export default function Contact() {
   return (
+    <FadeInSection>
     <div className="contact about" id="contact">
       <h1 className="aboutHeading">CONTACT ME</h1>
       <div className=" contactPara">
@@ -36,5 +39,6 @@ export default function Contact() {
           Crafted with love and caffeine by <a href="/">Pooja Sharma</a>.
       </div>
     </div>
+    </FadeInSection>
   );
 }

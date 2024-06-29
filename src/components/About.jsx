@@ -1,5 +1,8 @@
+import FadeInSection from "./FadeIn";
+
 export default function About() {
   return (
+    <FadeInSection>
     <div className="about" id="about">
       <h1 className="aboutHeading">ABOUT ME</h1>
       <div className="aboutPara">
@@ -22,5 +25,6 @@ export default function About() {
       </p>
       </div>
     </div>
+    </FadeInSection>
   );
 }

@@ -1,5 +1,8 @@
+import FadeInSection from "./FadeIn";
+
 export default function Skills() {
   return (
+    <FadeInSection>
     <div className="about" id="skills">
       <h1 className="aboutHeading">MY SKILLS</h1>
       <div className="aboutPara skills">
@@ -22,5 +25,6 @@ export default function Skills() {
         <div className="skill">Microsoft Office</div>
       </div>
     </div>
+    </FadeInSection>
   );
 }
