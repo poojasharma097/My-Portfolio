@@ -60,12 +60,12 @@ export default function Home() {
     <div>
       <div className="home min-h-screen flex flex-col gap-10">
         <div className="homeHeading">
-          HEY, I&apos;M{" "}
-          <span
+          HEY, I&apos;M{" "} POOJA SHARMA.
+          {/* <span
             className="txt-rotate"
             data-period="2000"
             data-rotate='[ " POOJA SHARMA.", " A DEVELOPER.", " A LEARNER." ]'
-          ></span>
+          ></span> */}
         </div>
         <div className="homeSubHeading">
           Aspiring Software Engineer & Web Developer
