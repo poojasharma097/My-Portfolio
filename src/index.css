@@ -485,6 +485,15 @@ body {
   .card:hover {
     transform: translateY(0px);
   }
+  .card .info h1 {
+    font-size: 15px;
+  }
+  .card .info p {
+    font-size: 2vw;
+  }
+  .card .info button {
+    font-size: 2vw;
+  }
   .projectHeading {
     font-size: medium;
     font-weight: 400;
@@ -523,6 +532,15 @@ body {
   }
   .card:hover {
     transform: translateY(10px);
+  }
+  .card .info h1 {
+    font-size: 15px;
+  }
+  .card .info p {
+    font-size: 1.5vw;
+  }
+  .card .info button {
+    font-size: 1.5vw;
   }
   .projectHeading {
     font-weight: 500;
