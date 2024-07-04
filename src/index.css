@@ -482,6 +482,9 @@ body {
     align-items: center;
     align-content: center;
   }
+  .card:hover {
+    transform: translateY(0px);
+  }
   .projectHeading {
     font-size: medium;
     font-weight: 400;
@@ -517,6 +520,9 @@ body {
     justify-content: center;
     align-items: center;
     align-content: center;
+  }
+  .card:hover {
+    transform: translateY(10px);
   }
   .projectHeading {
     font-weight: 500;
